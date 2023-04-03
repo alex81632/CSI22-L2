@@ -1,6 +1,5 @@
 def q3(l):
     for i in l:
-        # se tiver algum caractere que não seja um alfanumérico remova
         if not i.isalnum():
             l.remove(i)
     return l
